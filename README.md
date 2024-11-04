@@ -147,4 +147,9 @@ HAVING MAX(OrderDate) < DATEADD(QUARTER, -1, GETDATE());
 
 ![Total Sales by Product, Month & Region](https://github.com/Putsim/LITA_Sales_Analysis/blob/main/Total%20Sales%20by%20Product%20and%20Region.png)
 
+![Slicer for Product & Region](https://github.com/Putsim/LITA_Sales_Analysis/blob/main/Slicer%20for%20Product%20and%20Region.png)
+
+
+- **Using Power BI**
+
 ![]()
