@@ -4,7 +4,7 @@ This project demonstrates my ability to analyze and derive actionable insights f
 # Sales Performance Analysis for a Retail Store
 ---
 ### Project Overview
-In this project, I conducted an in-depth sales data analysis for a retail store to provide actionable insights that drive business decisions. The objective was to explore key metrics such as top-selling products, regional sales performance, and monthly sales trends, culminating in an interactive Power BI dashboard. By leveraging Excel, SQL, and Power BI, I transformed raw sales data into a visual and comprehensive report that highlights the store’s sales performance.
+I conducted an in-depth sales data analysis for a retail store in this project to provide actionable insights that drive business decisions. The objective was to explore key metrics such as top-selling products, regional sales performance, and monthly sales trends, culminating in an interactive Power BI dashboard. By leveraging Excel, SQL, and Power BI, I transformed raw sales data into a visual and comprehensive report that highlights the store’s sales performance.
 
 ### Data used:
 The dataset used for this analysis is the **"Sales_data.csv"** file, containing detailed information about each sale made. It comprises of 8 columns;
@@ -72,12 +72,14 @@ SELECT Product, SUM(Total_Sales) AS TotalSales
 FROM [dbo].[SalesData]
 GROUP BY Product;
 ```
+
 - _**Number of sales transactions in each region**_
 ```SQL
 SELECT Region, COUNT(OrderID) AS NumberOfTransactions
 FROM [dbo].[SalesData]
 GROUP BY Region;
 ```
+
 - _**Highest selling product by total sales value**_
 ```SQL
 SELECT TOP 1 Product, SUM(Total_Sales) AS TotalSales
@@ -85,12 +87,14 @@ FROM [dbo].[SalesData]
 GROUP BY Product
 ORDER BY TotalSales DESC
 ```
+
 - _**Total Revenue by product**_
 ``` SQL
 SELECT Product, SUM(Total_Sales) AS TotalRevenue
 FROM [dbo].[SalesData]
 GROUP BY Product;
 ```
+
 - _**Monthly Sales Total for the current year**_
 ```SQL
 SELECT 
@@ -100,6 +104,7 @@ FROM [dbo].[SalesData]
 WHERE YEAR(OrderDate) = YEAR(GETDATE()) 
 GROUP BY MONTH(OrderDate);
 ```
+
 - _**Top 5 customers by total purchase amount**_
 ```SQL
 SELECT TOP 5 Customer_Id, SUM(Total_Sales) AS TotalPurchase
@@ -107,6 +112,7 @@ FROM [dbo].[SalesData]
 GROUP BY Customer_Id
 ORDER BY TotalPurchase DESC
 ```
+
 - _**Percentage of Total Sales contributed by each region**_
 ```SQL
 WITH TotalSalesCTE AS (
@@ -120,6 +126,7 @@ SELECT
 FROM [dbo].[SalesData]
 GROUP BY Region;
 ```
+
 - _**Identify products with no sales in the last quarter**_
 ```SQL
 SELECT Product
@@ -127,13 +134,20 @@ FROM [dbo].[SalesData]
 GROUP BY Product
 HAVING MAX(OrderDate) < DATEADD(QUARTER, -1, GETDATE());
 ```
+
 - _**Average Sales per product**_
 ```Excel
 =AVERAGEIF(Table1[Product],"Shirt",Table1[Total Sales])
 ```
+
 - _**Total Revenue by region**_
 ```Excel
 =SUMIF(Table1[Region],"North",Table1[Total Sales])
+```
+
+- _**Average Sales per Product**_
+```DAX
+ = Average(SalesData[Total Sales])
 ```
 
 ### Data Visualization
