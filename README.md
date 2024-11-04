@@ -152,4 +152,4 @@ HAVING MAX(OrderDate) < DATEADD(QUARTER, -1, GETDATE());
 
 - **Using Power BI**
 
-![]()
+![Sales Performance Report Dashboard](https://github.com/Putsim/LITA_Sales_Analysis/blob/main/Power%20BI%20sd.png)
