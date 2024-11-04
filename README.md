@@ -141,4 +141,6 @@ HAVING MAX(OrderDate) < DATEADD(QUARTER, -1, GETDATE());
 
 ![Total Sales by Product](https://github.com/Putsim/LITA_Sales_Analysis/blob/main/Total%20sales%20by%20product.png)
 
-![Total Revenue by Region]()
+![Total Revenue by Region](https://github.com/Putsim/LITA_Sales_Analysis/blob/main/Total%20Revenue%20by%20Region.png)
+
+![Monthly Sales Trend]()
