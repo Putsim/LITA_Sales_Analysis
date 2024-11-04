@@ -135,3 +135,10 @@ HAVING MAX(OrderDate) < DATEADD(QUARTER, -1, GETDATE());
 ```Excel
 =SUMIF(Table1[Region],"North",Table1[Total Sales])
 ```
+
+### Data Visualization
+- **Using Excel**
+
+![Total Sales by Product](https://github.com/Putsim/LITA_Sales_Analysis/blob/main/Total%20sales%20by%20product.png)
+
+![Total Revenue by Region]()
