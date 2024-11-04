@@ -1,7 +1,7 @@
 # LITA_Sales_Analysis
 This project demonstrates my ability to analyze and derive actionable insights from retail sales data using Excel, SQL, and Power BI. The objective was to explore sales performance metrics and visualize key trends, including top-selling products, regional performance, and monthly sales trends. 
 
-# Project 1: Sales Performance Analysis for a Retail Store
+# Sales Performance Analysis for a Retail Store
 ---
 ### Project Overview
 In this project, I conducted an in-depth sales data analysis for a retail store to provide actionable insights that drive business decisions. The objective was to explore key metrics such as top-selling products, regional sales performance, and monthly sales trends, culminating in an interactive Power BI dashboard. By leveraging Excel, SQL, and Power BI, I transformed raw sales data into a visual and comprehensive report that highlights the store’s sales performance.
