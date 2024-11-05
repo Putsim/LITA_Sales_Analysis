@@ -37,32 +37,46 @@ The first step involved understanding the structure of the sales dataset and per
 
  - **Pivot Tables:**
    - **Summarize Total Sales by Product, Region, and Month:** Pivot tables provided an overview of how different products, regions, and periods (monthly) contributed to overall sales.
+     
    - **Product Performance:** Total sales were broken down by product, highlighting which items are top-sellers.
+     
    - **Regional Sales Trends:** Insights into which regions performed best and which are lagging.
+     
    - **Monthly Sales Trends:** Identified seasonal fluctuations and monthly performance trends.
      
 - **Formulas for Key Metrics:**
    - **Average Sales per Product:** This helped identify products that have consistent sales performance versus those with large fluctuations.
+     
    - **Total Revenue by Region:** Calculates total income generated from each region, giving insight into geographic contributions.
 
 **2. SQL Queries:**
 
 The dataset was loaded into an SQL Server environment, structured queries were used to extract more detailed insights. 
 - **Total Sales by Product Category:** This helped identify which categories are driving sales the most.
+  
 - **Sales Transactions by Region:** Provided a count of how many transactions are occurring in each region, reflecting customer activity levels.
+  
 - **Highest-Selling Product:** A query to determine which product has the highest sales value overall.
+  
 - **Total Revenue per Product:** Calculated how much revenue each product has generated, helping to compare the top-selling items.
+  
 - **Monthly Sales Totals for the Current Year:** Offered a view of how sales are trending month over month.
+  
 - **Top 5 Customers by Total Purchase Amount:** Identified the most valuable customers.
+  
 - **Regional Contribution to Total Sales:** Calculated the percentage of total sales contributed by each region.
+  
 - **Products with No Sales in the Last Quarter:** Flags products that have experienced a drop in sales, highlighting areas of concern.
 
 **3. Power BI Dashboard:**
 
 I translated these findings into a user-friendly and interactive dashboard.
 - **Sales Overview:** Displays total sales, revenue trends, and comparisons of key metrics.
+  
 - **Top-Performing Products:** Visualizes which products generate the most revenue and sales volume.
+  
 - **Regional Breakdown:** A geographic visualization showing which regions are the most and least profitable.
+  
 - **Monthly Sales Trends:** Interactive charts displaying monthly sales fluctuations, helping spot trends and seasonal variations.
 
 ### Data Analysis
@@ -167,3 +181,9 @@ HAVING MAX(OrderDate) < DATEADD(QUARTER, -1, GETDATE());
 - **Using Power BI**
 
 ![Sales Performance Report Dashboard](https://github.com/Putsim/LITA_Sales_Analysis/blob/main/Power%20BI%20sd.png)
+
+### Results and Insights
+
+### Summary
+### Conclusion and Recommendation
+
