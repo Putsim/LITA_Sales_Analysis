@@ -183,7 +183,58 @@ HAVING MAX(OrderDate) < DATEADD(QUARTER, -1, GETDATE());
 ![Sales Performance Report Dashboard](https://github.com/Putsim/LITA_Sales_Analysis/blob/main/Power%20BI%20sd.png)
 
 ### Results and Insights
+Here are the key findings and insights based on the data analysis:
 
-### Summary
-### Conclusion and Recommendation
+- **Total and Average Sales**: 
+  - Total sales generated amount to **$2.1 million**.
+  - The **average sales per product** stand at **$212**.
+
+- **Geographical Performance**:
+  - **Regional Contribution to Total Sales**:
+    - **South**: 44% (highest contributor).
+    - **East**: 23%.
+    - **North**: 19%.
+    - **West**: 14% (lowest contributor).
+  - The **South region** is both the best-performing and most profitable region.
+  - The **West region** is the least-performing and least profitable region.
+
+- **Product Performance**:
+  - **Top-Selling Products**:
+    - **Shoes**: $613k.
+    - **Shirts**: $486k.
+    - **Hats**: $316k.
+  - Other product sales:
+    - **Gloves**: $297k.
+    - **Jackets**: $208k.
+    - **Socks**: $181k.
+  - **Top Sellers** are **Shoes, Shirts, and Hats**.
+
+- **Monthly Sales Trends**:
+  - **Peak Month**: February, with the highest sales at **$546,300**.
+  - **Decline**: Sharp decline in sales following the peak in March.
+  - **Lowest Month**: September recorded the lowest sales.
+  - **Regional Peak Months**:
+    - **South**: February.
+    - **East**: July.
+    - **North**: January.
+    - **West**: August.
+
+- **Customer Insights**:
+  - **Top 5 Customers**: **CUS1431, CUS1495, CUS1005, CUS1115, and CUS1302**.
+
+- **Quarterly Performance**:
+  - All products had sales activity in the last quarter, indicating consistent demand across the product line.
+
+These insights highlight regional and product-specific strengths, peak sales periods, and key customers, providing valuable direction for future strategic planning and targeted initiatives.
+
+### Conclusion
+The **South region** is the standout performer, driving the largest share of sales and profitability. **Shoes, Shirts, and Hats** emerge as top-selling products, contributing significantly to overall revenue. February marked the peak sales month, particularly for the South, though a notable drop followed in March. The **West region** lags in both sales and profitability, highlighting an area for potential improvement. Key customer contributions also underscore the importance of maintaining strong relationships with top buyers.
+
+### Recommendations
+1. **Focus on High-Performing Products and Regions**: Allocate more resources to **Shoes, Shirts, and Hats** in the **South region** to capitalize on high demand and profitability.
+2. **Sales Growth Strategies for the West**: Implement targeted marketing and promotional efforts in the **West region** to boost its performance.
+3. **Address Seasonal Trends**: Prepare for the peak **February sales** by ensuring stock availability and launching strategic promotions beforehand. Consider targeted campaigns during other regional peak months (e.g., July for East).
+4. **Customer Retention and Relationship Management**: Strengthen engagement with the top 5 customers (e.g., personalized discounts or loyalty incentives) to encourage repeat business.
+
+These steps will help maximize profitability, improve underperforming areas, and maintain momentum with key products and customers.
 
