@@ -3,6 +3,26 @@ This project demonstrates my ability to analyze and derive actionable insights f
 
 # Sales Performance Analysis for a Retail Store
 ---
+## Table of Contents
+[Project Overview](#project-overview)
+
+[Data Used](#data-used)
+
+[Tools Used](#tools-used)
+
+[Data Cleaning and Preparation](#data-cleaning-and-preparation)
+
+[Exploratory Data Analysis](#exploratory-data-analysis)
+
+[Data Analysis](#data-analysis)
+
+[Data Visualization](#data-visualization)
+
+[Results and Insights](#results-and-insights)
+
+[Conclusion](#conclusion)
+
+[Recommendations](#recommendations)
 ### Project Overview
 I conducted an in-depth sales data analysis for a retail store in this project to provide actionable insights that drive business decisions. The objective was to explore key metrics such as top-selling products, regional sales performance, and monthly sales trends, culminating in an interactive Power BI dashboard. By leveraging Excel, SQL, and Power BI, I transformed raw sales data into a visual and comprehensive report that highlights the store’s sales performance.
 
@@ -22,7 +42,7 @@ The dataset used for this analysis is the **"Sales_data.csv"** file, containing 
 - **SQL**: This is used to query key insights such as top products, regional sales, and revenue trends.
 - **Power BI**: This is used to visualize the findings through interactive dashboards.
 
-### Data Cleaning/ Preparation
+### Data Cleaning and Preparation
 In the initial data preparation phase, I performed the following tasks:
 1. Data loading and inspection.
 2. Handling missing variables.
