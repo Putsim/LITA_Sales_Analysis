@@ -21,9 +21,11 @@
 
 [Recommendations](#recommendations)
 ### Project Overview
+---
 I conducted an in-depth sales data analysis for a retail store in this project to provide actionable insights that drive business decisions. The objective was to explore key metrics such as top-selling products, regional sales performance, and monthly sales trends, culminating in an interactive Power BI dashboard. By leveraging Excel, SQL, and Power BI, I transformed raw sales data into a visual and comprehensive report highlighting the store’s sales performance.
 
 ### Data used:
+---
 The dataset used for this analysis is the **"Sales_data.csv"** file, containing detailed information about each sale made. It comprises of 8 columns;
 1. Order ID
 2. Customer Id
@@ -35,6 +37,7 @@ The dataset used for this analysis is the **"Sales_data.csv"** file, containing 
 8. Total Sales
 
 ### Tools Used:
+---
 - **Excel** [Download Here](https://www.microsoft.com/en-ng/)
   - For initial data exploration and pivot table analysis.
   
@@ -45,6 +48,7 @@ The dataset used for this analysis is the **"Sales_data.csv"** file, containing 
   - This is used to visualize the findings through interactive dashboards.
 
 ### Data Cleaning and Preparation
+---
 In the initial data preparation phase, I performed the following tasks:
 1. Data loading and inspection.
 2. Handling missing variables.
@@ -53,6 +57,7 @@ In the initial data preparation phase, I performed the following tasks:
 5. Data cleaning and formatting.
 
 ### Exploratory Data Analysis
+---
 In this project, I analyzed the sales performance of a retail store by exploring key metrics such as **top-selling products**, **regional sales performance**, and **monthly trends**. The analysis follows three stages:
 
 **1. Excel Analysis:**
@@ -104,6 +109,7 @@ I translated these findings into a user-friendly and interactive dashboard.
 - **Monthly Sales Trends:** Interactive charts displaying monthly sales fluctuations, helping spot trends and seasonal variations.
 
 ### Data Analysis
+---
 **1. SQL Query**
 
 - _**Total sales for each product category**_
@@ -195,6 +201,7 @@ HAVING MAX(OrderDate) < DATEADD(QUARTER, -1, GETDATE());
 ```
 
 ### Data Visualization
+---
 - **Using Excel**
 
 ![Total Sales by Product](https://github.com/Putsim/LITA_Sales_Analysis/blob/main/Total%20sales%20by%20product.png)
@@ -213,6 +220,7 @@ HAVING MAX(OrderDate) < DATEADD(QUARTER, -1, GETDATE());
 ![Sales Performance Report Dashboard](https://github.com/Putsim/LITA_Sales_Analysis/blob/main/Power%20BI%20sd.png)
 
 ### Results and Insights
+---
 Here are the key findings and insights based on the data analysis:
 
 - **Total and Average Sales**: 
@@ -258,9 +266,11 @@ Here are the key findings and insights based on the data analysis:
 These insights highlight regional and product-specific strengths, peak sales periods, and key customers, providing valuable direction for future strategic planning and targeted initiatives.
 
 ### Conclusion
+---
 The **South region** is the standout performer, driving the largest share of sales and profitability. **Shoes, Shirts, and Hats** emerge as top-selling products, contributing significantly to overall revenue. February marked the peak sales month, particularly for the South, though a notable drop followed in March. The **West region** lags in both sales and profitability, highlighting an area for potential improvement. Key customer contributions also underscore the importance of maintaining strong relationships with top buyers.
 
 ### Recommendations
+---
 1. **Focus on High-Performing Products and Regions**: Allocate more resources to **Shoes, Shirts, and Hats** in the **South region** to capitalize on high demand and profitability.
 2. **Sales Growth Strategies for the West**: Implement targeted marketing and promotional efforts in the **West region** to boost its performance.
 3. **Address Seasonal Trends**: Prepare for the peak **February sales** by ensuring stock availability and launching strategic promotions beforehand. Consider targeted campaigns during other regional peak months (e.g., July for East).
