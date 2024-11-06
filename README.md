@@ -24,7 +24,7 @@ This project demonstrates my ability to analyze and derive actionable insights f
 
 [Recommendations](#recommendations)
 ### Project Overview
-I conducted an in-depth sales data analysis for a retail store in this project to provide actionable insights that drive business decisions. The objective was to explore key metrics such as top-selling products, regional sales performance, and monthly sales trends, culminating in an interactive Power BI dashboard. By leveraging Excel, SQL, and Power BI, I transformed raw sales data into a visual and comprehensive report that highlights the store’s sales performance.
+I conducted an in-depth sales data analysis for a retail store in this project to provide actionable insights that drive business decisions. The objective was to explore key metrics such as top-selling products, regional sales performance, and monthly sales trends, culminating in an interactive Power BI dashboard. By leveraging Excel, SQL, and Power BI, I transformed raw sales data into a visual and comprehensive report highlighting the store’s sales performance.
 
 ### Data used:
 The dataset used for this analysis is the **"Sales_data.csv"** file, containing detailed information about each sale made. It comprises of 8 columns;
@@ -38,15 +38,22 @@ The dataset used for this analysis is the **"Sales_data.csv"** file, containing 
 8. Total Sales
 
 ### Tools Used:
-- **Excel**: For initial data exploration and pivot table analysis.
-- **SQL**: This is used to query key insights such as top products, regional sales, and revenue trends.
-- **Power BI**: This is used to visualize the findings through interactive dashboards.
+- **Excel** [Download Here](https://www.microsoft.com/en-ng/)
+  - For initial data exploration and pivot table analysis.
+  
+- **SQL** [Download Here](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
+  - This is used to query key insights such as top products, regional sales, and revenue trends.
+    
+- **Power BI** [Download Here](https://www.microsoft.com/en-us/download/details.aspx?id=58494)
+  - This is used to visualize the findings through interactive dashboards.
 
 ### Data Cleaning and Preparation
 In the initial data preparation phase, I performed the following tasks:
 1. Data loading and inspection.
 2. Handling missing variables.
-3. Data cleaning and formatting.
+3. Conversion of dataset to table.
+4. Removal of duplicates.
+5. Data cleaning and formatting.
 
 ### Exploratory Data Analysis
 In this project, I analyzed the sales performance of a retail store by exploring key metrics such as **top-selling products**, **regional sales performance**, and **monthly trends**. The analysis follows three stages:
@@ -100,6 +107,8 @@ I translated these findings into a user-friendly and interactive dashboard.
 - **Monthly Sales Trends:** Interactive charts displaying monthly sales fluctuations, helping spot trends and seasonal variations.
 
 ### Data Analysis
+**1. SQL Query**
+
 - _**Total sales for each product category**_
 ```SQL
 SELECT Product, SUM(Total_Sales) AS TotalSales
@@ -169,6 +178,8 @@ GROUP BY Product
 HAVING MAX(OrderDate) < DATEADD(QUARTER, -1, GETDATE());
 ```
 
+**2. Excel Formula**
+
 - _**Average Sales per product**_
 ```Excel
 =AVERAGEIF(Table1[Product],"Shirt",Table1[Total Sales])
@@ -178,6 +189,8 @@ HAVING MAX(OrderDate) < DATEADD(QUARTER, -1, GETDATE());
 ```Excel
 =SUMIF(Table1[Region],"North",Table1[Total Sales])
 ```
+
+**3. DAX**
 
 - _**Average Sales per Product**_
 ```DAX
